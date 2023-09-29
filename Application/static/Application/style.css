@@ -1,0 +1,37 @@
+.inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    margin-top:15px;
+    padding:10px;
+}
+
+.inp{
+    margin-top: 5px;
+    padding: 8px;
+}
+.home-button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #3498db;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #2980b9;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

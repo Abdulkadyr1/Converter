@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+{%load static%}
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'Application/style.css'%}">
+</head>
+<body>
+        <div class="Main">
+            <form action="result">
+                <div class="inner">
+                    <h1>Конвертер из долларов в рубли</h1>
+                    <label for="dl">Введите количество долларов:</label>
+                    <input type="number" name="dollar" placeholder="Введите число:" id="dl" class = "inp">
+                    <br>
+                    <button class = "button">Рассчитать</button>
+                </div>
+            </form>
+        </div>
+</body>
+</html>
